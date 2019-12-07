@@ -8,7 +8,7 @@ AC_INIT(
 	[0.6.0],
 	[luke_libblkmaker@dashjr.org],
 	[libblkmaker],
-	[http://gitorious.org/bitcoin/libblkmaker])
+	[http://gitorious.org/bitrub/libblkmaker])
 AC_CONFIG_AUX_DIR([.])
 AC_PREREQ([2.59])
 AM_INIT_AUTOMAKE([1.11 -Wall dist-xz foreign])

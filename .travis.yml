@@ -104,7 +104,7 @@ script:
       make install;
       popd;
     fi
-  - git clone git://github.com/bitcoin/libbase58 -b v0.1.4 --depth 1
+  - git clone git://github.com/bitrub/libbase58 -b v0.1.4 --depth 1
   - pushd libbase58
   - ./autogen.sh
   - ./configure $TARGET_OPTS $OPTS
